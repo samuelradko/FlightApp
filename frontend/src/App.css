@@ -1,0 +1,21 @@
+header {
+  background-color: #404040;
+  padding: 1rem;
+}
+
+header > a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.image-container {
+  height: 200px; /* Adjust the height as per your requirement */
+  overflow: hidden;
+}
+
+.flight-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
